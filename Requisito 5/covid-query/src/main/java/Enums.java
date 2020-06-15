@@ -156,7 +156,7 @@ public class Enums {
 
 		/**
 		 * Method that receives the Enumerated Type String value and returns the corresponding Enumerated 
-		 * @param attribute - Enumerated Type String value
+		 * @param string Enumerated Type String value
 		 * @return Corresponding Enumerated 
 		 */
 		public static Attributes getAttributes(final String string) {

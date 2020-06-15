@@ -172,8 +172,8 @@ public class RegiaoFactory {
 	 * <p>Second operand is always numeric</p>
 	 * @param regionAttribute - Operand 1 of condition
 	 * @param relationalOperator - Condition Operator
-	 * @param toCompareAttribute - Operand 2 of condition - Is numeric
-	 * @return - List containing the regions that matches the condition
+	 * @param toCompareValue - Operand 2 of condition Is numeric
+	 * @return List containing the regions that matches the condition
 	 */
 	public List<Regiao> compareAttributeWith(String regionAttribute, String relationalOperator , int toCompareValue) {
 		List<Regiao> list = new ArrayList<Regiao>();
